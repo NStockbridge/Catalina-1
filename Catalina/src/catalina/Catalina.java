@@ -24,6 +24,9 @@ public class Catalina {
         while(scan.hasNext()){
             String temp = scan.nextLine();
             StringBuilder line = new StringBuilder();
+            
+            for(int i=0; i < temp.length() ; i++) {
+                
     }
     
 }
