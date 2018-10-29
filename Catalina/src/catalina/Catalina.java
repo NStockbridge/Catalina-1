@@ -21,6 +21,9 @@ public class Catalina {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner  scan = new Scanner(new File("Input.txt"));
         
+        while(scan.hasNext()){
+            String temp = scan.nextLine();
+            StringBuilder line = new StringBuilder();
     }
     
 }
