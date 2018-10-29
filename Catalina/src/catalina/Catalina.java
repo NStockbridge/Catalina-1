@@ -26,7 +26,9 @@ public class Catalina {
             StringBuilder line = new StringBuilder();
             
             for(int i=0; i < temp.length() ; i++) {
-                
-    }
+                if(Character.isUpperCase(temp.charAt(i))) {
+                    line.append(temp.charAt(i));
+                    
+    } System.out.println(line);
     
 }
